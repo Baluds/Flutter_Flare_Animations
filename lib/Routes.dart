@@ -1,5 +1,6 @@
 import 'package:White_Bear/components/Buttons.dart';
 import 'package:White_Bear/screens/animations.dart';
+import 'package:White_Bear/screens/screentrack.dart';
 import 'package:flutter/material.dart';
 
 class Routes extends StatefulWidget {
@@ -66,7 +67,14 @@ class _RoutesState extends State<Routes> {
                 Reuse(
                   height: _height,
                   width: _width,
-                  func: () {},
+                  func: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => Screentrack(),
+                      ),
+                    );
+                  },
                   txt: 'Screen',
                 ),
                 Reuse(
