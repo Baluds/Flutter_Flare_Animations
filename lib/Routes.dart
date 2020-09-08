@@ -1,5 +1,6 @@
 import 'package:White_Bear/components/Buttons.dart';
 import 'package:White_Bear/screens/ButtonTrack.dart';
+import 'package:White_Bear/screens/Loginpage.dart';
 import 'package:White_Bear/screens/animations.dart';
 import 'package:White_Bear/screens/screentrack.dart';
 import 'package:flutter/material.dart';
@@ -41,7 +42,14 @@ class _RoutesState extends State<Routes> {
                 Reuse(
                   height: _height,
                   width: _width,
-                  func: () {},
+                  func: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => Loginpg(),
+                      ),
+                    );
+                  },
                   txt: 'Login',
                 ),
                 Reuse(
@@ -72,11 +80,11 @@ class _RoutesState extends State<Routes> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => Screentrack(),
+                        builder: (context) => Screentrackpg(),
                       ),
                     );
                   },
-                  txt: 'Screen',
+                  txt: 'Screen\nTrack',
                 ),
                 Reuse(
                   height: _height,
@@ -85,11 +93,11 @@ class _RoutesState extends State<Routes> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => TrackButton(),
+                        builder: (context) => TrackButtonpg(),
                       ),
                     );
                   },
-                  txt: 'Button',
+                  txt: 'Button\nTrack',
                 ),
               ],
             ),

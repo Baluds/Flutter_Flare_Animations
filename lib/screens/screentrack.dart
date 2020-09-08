@@ -1,3 +1,4 @@
+//Here Bear's eye look at a ball
 import 'dart:async';
 import 'dart:typed_data';
 
@@ -7,14 +8,14 @@ import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class Screentrack extends StatefulWidget {
-  Screentrack({Key key}) : super(key: key);
+class Screentrackpg extends StatefulWidget {
+  Screentrackpg({Key key}) : super(key: key);
 
   @override
-  _ScreentrackState createState() => _ScreentrackState();
+  _ScreentrackpgState createState() => _ScreentrackpgState();
 }
 
-class _ScreentrackState extends State<Screentrack> {
+class _ScreentrackpgState extends State<Screentrackpg> {
   GlobalKey _paintKey = new GlobalKey();
   Offset _offset;
   TeddyController _teddyController;

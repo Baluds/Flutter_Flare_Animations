@@ -1,3 +1,4 @@
+//Here Bear's eye look ate wherever you tap on screen
 import 'dart:async';
 
 import 'package:White_Bear/components/Buttons.dart';
@@ -5,14 +6,14 @@ import 'package:White_Bear/services/teddy_controller.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
 
-class TrackButton extends StatefulWidget {
-  TrackButton({Key key}) : super(key: key);
+class TrackButtonpg extends StatefulWidget {
+  TrackButtonpg({Key key}) : super(key: key);
 
   @override
   _TrackButtonState createState() => _TrackButtonState();
 }
 
-class _TrackButtonState extends State<TrackButton> {
+class _TrackButtonState extends State<TrackButtonpg> {
   GlobalKey _trackkey = new GlobalKey();
   Offset _offset;
   TeddyController _teddyController;

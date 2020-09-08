@@ -1,3 +1,4 @@
+//All the animations can be played here
 import 'package:White_Bear/components/Buttons.dart';
 import 'package:White_Bear/services/teddy_controller.dart';
 import 'package:flare_flutter/flare_actor.dart';

@@ -30,7 +30,7 @@ class TeddyController extends FlareControls {
   BuildContext con;
 
   // Project gaze forward by this many pixels.
-  static const double _projectGaze = 160.0;
+  static const double _projectGaze = 150.0;
 
   //String _password;
 
